@@ -17,13 +17,14 @@
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
             android:src="@drawable/backbuttonb"
             tools:ignore="MissingConstraints" />
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/addcart"
-            android:layout_marginLeft="@dimen/_250sdp"
+            android:layout_marginLeft="@dimen/_230sdp"
             tools:ignore="MissingConstraints"
             android:layout_marginTop="@dimen/_5sdp"
             tools:layout_editor_absoluteX="378dp"
@@ -31,42 +32,41 @@
 
 
     </LinearLayout>
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_30sdp"
-        app:cardCornerRadius="@dimen/_40sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginHorizontal="@dimen/_10sdp"
-        tools:ignore="MissingConstraints">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="@dimen/_20sdp"
-                android:layout_height="@dimen/_20sdp"
-                android:layout_marginLeft="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:src="@drawable/search1"/>
-            <TextView
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="TEXT"
-                android:textSize="@dimen/_15sdp"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:textColor="#c0c0c0"/>
-            <ImageView
-                android:layout_width="@dimen/_20sdp"
-                android:layout_height="@dimen/_20sdp"
-                android:src="@drawable/camera"
-                android:layout_marginLeft="@dimen/_180sdp"
-                android:layout_marginTop="@dimen/_5sdp"/>
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:src="@drawable/search1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="TEXT"
+                    android:textSize="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="#c0c0c0"/>
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/camera"
+                    android:layout_marginLeft="@dimen/_200sdp"
+                    android:layout_marginTop="@dimen/_7sdp"/>
 
 
-        </LinearLayout>
+            </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -88,13 +88,13 @@
                 android:text="MEN"
                 android:layout_marginVertical="@dimen/_4sdp"
                 android:layout_marginLeft="@dimen/_30sdp"/>
-            <EditText
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/darkblue"
                 android:layout_marginLeft="@dimen/_40sdp"
                 android:layout_marginVertical="@dimen/_4sdp"
-                android:text="WOMEN" />
+                android:text=" WOMEN " />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -130,20 +130,21 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/post1"/>
 
 
             </LinearLayout>
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_height="@dimen/_10sdp"
                 android:src="@drawable/heart3"
                 android:layout_marginLeft="@dimen/_50sdp"
                 android:layout_gravity="center_horizontal"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--40 % off"
+                android:text="-40 % off"
                 android:background="@color/red"/>
 
         </androidx.cardview.widget.CardView>
@@ -164,20 +165,22 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/post2" />
 
 
             </LinearLayout>
+
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
-                android:src="@drawable/heart1"
+                android:layout_height="14dp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="@dimen/_50sdp"
-                android:layout_gravity="center_horizontal"/>
+                android:src="@drawable/heart1" />
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--20 % off"
+                android:text="-20 % off"
                 android:background="@color/red"
                 />
 
@@ -210,20 +213,21 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/discoutpost2"/>
 
 
             </LinearLayout>
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_height="@dimen/_10sdp"
                 android:src="@drawable/heart3"
                 android:layout_marginLeft="@dimen/_50sdp"
                 android:layout_gravity="center_horizontal"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--60 % off"
+                android:text="-60 % off"
                 android:background="@color/red"/>
 
         </androidx.cardview.widget.CardView>
@@ -244,20 +248,22 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/dicoutp3" />
 
 
             </LinearLayout>
+
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
-                android:src="@drawable/heart1"
+                android:layout_height="19dp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="@dimen/_50sdp"
-                android:layout_gravity="center_horizontal"/>
+                android:src="@drawable/heart1" />
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--20 % off"
+                android:text="-20 % off"
                 android:background="@color/red"
                 />
 
@@ -289,20 +295,21 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/discount4" />
 
 
             </LinearLayout>
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_height="@dimen/_10sdp"
                 android:src="@drawable/heart3"
                 android:layout_marginLeft="@dimen/_50sdp"
                 android:layout_gravity="center_horizontal"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--10 % off"
+                android:text="-10 % off"
                 android:background="@color/red"/>
 
         </androidx.cardview.widget.CardView>
@@ -323,20 +330,21 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/discount5" />
 
 
             </LinearLayout>
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_height="@dimen/_10sdp"
                 android:src="@drawable/heart1"
                 android:layout_marginLeft="@dimen/_50sdp"
                 android:layout_gravity="center_horizontal"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="--30 % off"
+                android:text="-30 % off"
                 android:background="@color/red"
                 />
 
@@ -377,7 +385,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=  "Home " />
+                        android:layout_gravity="center"
+                        android:text="Home" />
 
                 </LinearLayout>
 
@@ -392,13 +401,14 @@
                     <ImageView
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
-                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
                         android:src="@drawable/categories" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
+
                         android:text="Categroies" />
 
                 </LinearLayout>
@@ -415,13 +425,13 @@
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
                         android:src="@drawable/discount2"
-                        android:layout_marginLeft="@dimen/_5sdp"/>
+                        android:layout_marginLeft="@dimen/_2sdp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:text=" Offer " />
+                        android:text="Offer" />
 
                 </LinearLayout>
 
@@ -429,14 +439,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_15sdp"
-                    android:id="@+id/linwish"
                     android:layout_marginTop="@dimen/_10sdp"
+                    android:id="@+id/linwish1"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
-                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
                         android:src="@drawable/heart" />
 
                     <TextView

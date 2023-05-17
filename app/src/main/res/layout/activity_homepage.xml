@@ -20,12 +20,14 @@
         <ImageView
             android:layout_width="56dp"
             android:layout_height="54dp"
+            android:layout_marginLeft="@dimen/_5sdp"
             android:src="@drawable/jlogo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Faishon"
+            android:layout_marginTop="@dimen/_8sdp"
             android:textColor="@color/black"
             android:textSize="@dimen/_20ssp"
             android:textStyle="bold"
@@ -34,18 +36,18 @@
             tools:layout_editor_absoluteY="16dp"
             tools:ignore="MissingConstraints" />
         <ImageView
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
             android:src="@drawable/search"
             tools:ignore="MissingConstraints"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_13sdp"
             tools:layout_editor_absoluteY="16dp" />
 
         <ImageView
             android:layout_width="26dp"
             android:layout_height="26dp"
             android:src="@drawable/addcart"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_11sdp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="359dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -73,6 +75,7 @@
             <ImageView
                 android:layout_width="@dimen/_20sdp"
                 android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:src="@drawable/location"/>
 
@@ -103,6 +106,7 @@
         <ImageView
             android:layout_width="@dimen/_100sdp"
             android:layout_height="100dp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:src="@drawable/t_shirt"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="-2dp" />
@@ -118,8 +122,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50% off"
+                android:layout_marginLeft="@dimen/_15sdp"
                 android:layout_gravity="center_horizontal"
                 android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 tools:layout_editor_absoluteX="154dp"
                 tools:layout_editor_absoluteY="16dp" />
@@ -142,6 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Get the offer"
+            android:layout_marginLeft="@dimen/_30sdp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/_70sdp"/>
     </androidx.cardview.widget.CardView>
@@ -156,7 +163,7 @@
         android:textSize="@dimen/_15ssp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:layout_marginLeft="@dimen/_10sdp"/>
+        android:layout_marginLeft="@dimen/_20sdp"/>
 
 
 <!--    for Categories scrol view-->
@@ -205,42 +212,43 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" drees"
-            android:textSize="@dimen/_15ssp"/>
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_10ssp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Shirt"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:textSize="@dimen/_15ssp"/>
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:textSize="@dimen/_10ssp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Huddi"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:textSize="@dimen/_15ssp"/>
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textSize="@dimen/_10ssp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" vestrn"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:textSize="@dimen/_15ssp"/>
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textSize="@dimen/_10ssp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
             android:text=" pent"
-            android:textSize="@dimen/_15ssp"/>
+            android:textSize="@dimen/_10ssp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Suit"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:textSize="@dimen/_15ssp"/>
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textSize="@dimen/_10ssp"/>
     </LinearLayout>
 
 
@@ -256,8 +264,8 @@
             android:layout_height="wrap_content"
             android:text="Faishon"
             android:textColor="@color/black"
-            android:textSize="@dimen/_20ssp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_20sdp"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_140sdp"
@@ -269,101 +277,106 @@
             android:layout_width="78dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
             android:text="See all"
             android:textColor="@color/black"
-            android:textSize="@dimen/_20ssp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold"
             tools:ignore="MissingConstraints"/>
 
         <ImageView
-        android:layout_width="@dimen/_20sdp"
-        android:layout_height="@dimen/_20sdp"
-        android:src="@drawable/leftarrow"
-        android:layout_marginTop="@dimen/_15sdp" />
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:src="@drawable/leftarrow" />
 
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
-
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="@dimen/_160sdp"
-        android:layout_marginHorizontal="@dimen/_20sdp"
-        app:cardCornerRadius="@dimen/_10sdp"
-        app:cardBackgroundColor="#C0C0C0">
-
-
         <LinearLayout
-            android:layout_width="@dimen/_120sdp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
             android:orientation="horizontal">
 
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                app:cardBackgroundColor="#C0C0C0"
+                app:cardCornerRadius="@dimen/_10sdp">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/post1"/>
 
+                <LinearLayout
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/post1" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:src="@drawable/heart3" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"
+                    android:text="-40 % off" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                app:cardBackgroundColor="#C0C0C0"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_160sdp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_160sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/post2" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:src="@drawable/heart1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"
+                    android:text="--20 % off" />
+
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_20sdp"
-            android:src="@drawable/heart3"
-            android:layout_marginLeft="@dimen/_50sdp"
-            android:layout_gravity="center_horizontal"/>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="--40 % off"
-            android:background="@color/red"/>
-
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_120sdp"
-        android:layout_height="@dimen/_160sdp"
-        android:layout_marginHorizontal="@dimen/_10sdp"
-        app:cardCornerRadius="@dimen/_10sdp"
-        app:cardBackgroundColor="#C0C0C0">
-
-
-        <LinearLayout
-            android:layout_width="@dimen/_120sdp"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/post2" />
-
-
-        </LinearLayout>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_20sdp"
-            android:src="@drawable/heart1"
-            android:layout_marginLeft="@dimen/_50sdp"
-            android:layout_gravity="center_horizontal"/>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="--20 % off"
-            android:background="@color/red"
-          />
-
-    </androidx.cardview.widget.CardView>
-
-    </LinearLayout>
     </LinearLayout>
 <!--    fotter-->
     <androidx.cardview.widget.CardView
@@ -397,7 +410,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=  "Home " />
+                        android:layout_gravity="center"
+                        android:text="Home" />
 
                 </LinearLayout>
 
@@ -412,13 +426,14 @@
                     <ImageView
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
-                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
                         android:src="@drawable/categories" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
+
                         android:text="Categroies" />
 
                 </LinearLayout>
@@ -435,13 +450,13 @@
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
                         android:src="@drawable/discount"
-                        android:layout_marginLeft="@dimen/_5sdp"/>
+                        android:layout_marginLeft="@dimen/_2sdp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:text=" Offer " />
+                        android:text="Offer" />
 
                 </LinearLayout>
 
@@ -455,7 +470,7 @@
                     <ImageView
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
-                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
                         android:src="@drawable/heart" />
 
                     <TextView

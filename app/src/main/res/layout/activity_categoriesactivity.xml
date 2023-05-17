@@ -16,6 +16,7 @@
     tools:ignore="MissingConstraints">
     <ImageView
         android:layout_width="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
         android:src="@drawable/backbuttonb"
         tools:ignore="MissingConstraints" />
@@ -23,7 +24,7 @@
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
         android:src="@drawable/addcart"
-        android:layout_marginLeft="@dimen/_250sdp"
+        android:layout_marginLeft="@dimen/_230sdp"
         tools:ignore="MissingConstraints"
         android:layout_marginTop="@dimen/_5sdp"
         tools:layout_editor_absoluteX="378dp"
@@ -43,25 +44,24 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_width="@dimen/_20sdp"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
                 android:layout_marginLeft="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_7sdp"
                 android:src="@drawable/search1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="TEXT"
-                android:textSize="@dimen/_15sdp"
-                android:layout_marginLeft="@dimen/_20sdp"
+                android:textSize="@dimen/_13sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:textColor="#c0c0c0"/>
             <ImageView
-                android:layout_width="@dimen/_20sdp"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
                 android:src="@drawable/camera"
-                android:layout_marginLeft="@dimen/_130sdp"
-                android:layout_marginTop="@dimen/_5sdp"/>
+                android:layout_marginLeft="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_7sdp"/>
 
 
         </LinearLayout>
@@ -85,13 +85,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:background="@color/darkblue"
                 android:layout_marginVertical="@dimen/_4sdp"
-                android:text="MEN" />
+                android:text=" MEN " />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -345,7 +345,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=  "Home " />
+                        android:layout_gravity="center"
+                        android:text="Home" />
 
                 </LinearLayout>
 
@@ -360,13 +361,14 @@
                     <ImageView
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
-                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
                         android:src="@drawable/categories2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
+
                         android:text="Categroies" />
 
                 </LinearLayout>
@@ -383,13 +385,13 @@
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
                         android:src="@drawable/discount"
-                        android:layout_marginLeft="@dimen/_5sdp"/>
+                        android:layout_marginLeft="@dimen/_2sdp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:text=" Offer " />
+                        android:text="Offer" />
 
                 </LinearLayout>
 
@@ -403,7 +405,7 @@
                     <ImageView
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
-                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
                         android:src="@drawable/heart" />
 
                     <TextView

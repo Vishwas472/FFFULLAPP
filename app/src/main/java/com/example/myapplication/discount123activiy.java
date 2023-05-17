@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 public class discount123activiy extends AppCompatActivity {
-LinearLayout linwish;
+LinearLayout linwish1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +17,8 @@ LinearLayout linwish;
     }
 
     private void Initview() {
-        linwish=findViewById(R.id.linwish);
-        linwish.setOnClickListener(new View.OnClickListener() {
+        linwish1=findViewById(R.id.linwish1);
+        linwish1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                     Intent E =new Intent(discount123activiy.this,wishlistactivity.class);

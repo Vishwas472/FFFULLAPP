@@ -16,10 +16,10 @@
     android:orientation="horizontal">
 
   <ImageView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_width="24dp"
+      android:layout_height="24dp"
       android:src="@drawable/backbuttonb"
-      android:layout_marginRight="10dp"
+      android:layout_marginLeft="@dimen/_10sdp"
       tools:ignore="MissingConstraints" />
 
   <TextView
@@ -50,7 +50,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="16dp"
-      android:textColor="@color/silver"
+      android:textColor="@color/darksilver"
       android:layout_marginTop="10dp"
       android:text="don't worry ,enter your  e-mail to Verification code"
       app:layout_constraintStart_toStartOf="parent"
